@@ -1,0 +1,20 @@
+Filename: README
+Author: flyingfisch
+Last Updated: 1/05/2012
+
+This project is to create a GUI library for luaFX/AFX.
+
+Available functions:
+
+* Lua Classes (thanks to adriweb for code)
+* Input text (missing in the originl luaFX)
+
+Planned functions to be included:
+
+* Buttons
+* Window Manager
+* EZ Menus
+* Dialog boxes
+* Radio Buttons
+* Check Boxes
+* More :D
