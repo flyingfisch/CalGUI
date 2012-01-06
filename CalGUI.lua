@@ -1,3 +1,10 @@
+--[[--
+CalGUI (Pronounced Cal-gew-ey), a GUI library for LuaFX
+By flyingfisch 
+Last Updated 1/05/2012
+This project is free and open source.
+--]]--
+
 -- locals
 local line = graydraw.line
 local wait = misc.wait
@@ -10,12 +17,9 @@ local setCursor = nbdraw.setcursor
 local strsub = string.sub
 local strlen = string.len
 
---[[--
-CalGUI (Pronounced Cal-gew-ey), a GUI library for LuaFX
-By flyingfisch 
-Last Updated 1/05/2012
-This project is free and open source.
---]]--
+--Sprites
+--Cursor sprite (8x8):
+cursor_img = "\000\000üü\000ÀÀ\000  \000\000\000\000\000\000\000\000\000\000\000"
 
 --[[--
 Class definition system
